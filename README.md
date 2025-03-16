@@ -5,6 +5,7 @@
 ```
 docker-compose up
 ```
+and check [localhost:3000](http://localhost:3000)
 
 ### Valid url example
 
