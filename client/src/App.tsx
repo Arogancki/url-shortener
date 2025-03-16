@@ -11,6 +11,7 @@ function App() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsCopied(false);
+    setShortUrl('');
     try {
       const response = await fetch(`${process.env.REACT_APP_API_URL}/shorten`, {
         method: 'POST',
