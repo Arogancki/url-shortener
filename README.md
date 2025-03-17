@@ -5,12 +5,21 @@
 ```
 docker-compose up
 ```
+
 and check [localhost:3000](http://localhost:3000)
 
 ### Valid url example
 
 [protocol]://phost].[domain]/[optional-path]
 eg. https://cloud.mongodb.com/v2/
+
+### API docs
+
+Visit swagger
+
+```
+http://localhost:3001/api
+```
 
 ### Not implemented
 
